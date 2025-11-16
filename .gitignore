@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# PyCharm project files
+.idea/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Local data
+data-ingestion/data/raw/
+data-ingestion/data/hive/
+
+# Parquet & CSV outputs
+*.parquet
+*.csv
