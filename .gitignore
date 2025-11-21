@@ -13,9 +13,8 @@ venv/
 .ipynb_checkpoints/
 
 # Local data
-data-ingestion/data/raw/
-data-ingestion/data/hive/
+data_ingestion/data/raw/
+data_ingestion/data/bronze/
 
-# Parquet & CSV outputs
-*.parquet
-*.csv
+# credentials
+*.env

@@ -1,0 +1,6 @@
+Datum und Uhrzeit,Energie ins Netz eingespeist | PowerMeter,Energie vom Netz bezogen | PowerMeter,Scheinleistung L1 Einspeisepunkt | PowerMeter,Scheinleistung L2 Einspeisepunkt | PowerMeter,Scheinleistung L3 Einspeisepunkt | PowerMeter,Spannung AC L1 Einspeisepunkt | PowerMeter,Spannung AC L2 Einspeisepunkt | PowerMeter,Spannung AC L3 Einspeisepunkt | PowerMeter,Wirkleistung L1 Einspeisepunkt | PowerMeter,Wirkleistung L2 Einspeisepunkt | PowerMeter,Wirkleistung L3 Einspeisepunkt | PowerMeter
+[dd.MM.yyyy HH:mm],[Wh],[Wh],[VA],[VA],[VA],[V],[V],[V],[W],[W],[W]
+01.01.2024 00:00,0.0,0.0,169.41,74.05,172.6,234.1,235.8,234.57,-40.1,3.59,38.74
+01.01.2024 00:05,0.0,0.0,168.38,81.23,152.17,233.35,235.24,234.42,-38.21,24.72,14.91
+01.01.2024 00:10,0.0,0.0,166.44,75.44,143.4,233.42,234.61,234.33,-30.9,14.66,18.46
+01.01.2024 00:15,0.0,0.0,166.55,79.08,146.12,233.4,234.54,234.41,-34.09,15.54,20.21
