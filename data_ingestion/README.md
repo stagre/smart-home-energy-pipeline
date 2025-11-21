@@ -71,3 +71,14 @@ BATTERY_COL_MAP = {
     "State of Charge": "state_of_charge_pct",
 }
 ```
+
+### 2. Upload Bronze data to Azure
+
+For further processing, the Bronze layout can be uploaded to Azure from  
+`data_ingestion/data/bronze/` into the ADLS `raw` container using:
+
+```bash
+./infra/cli/upload_raw_to_adls.sh
+```
+
+For more details see `infra/azure_infrastructure_setup.md`.

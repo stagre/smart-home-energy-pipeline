@@ -59,3 +59,26 @@ After execution, the specified resource group should contain:
 - The Data Factory instance with active managed identity
 
 ---
+
+## 4. Upload local Bronze data to ADLS `raw`
+
+For early project stages, you can upload the locally generated Bronze layer
+(`data_ingestion/data/bronze/`) into the ADLS `raw` container.
+
+Run from the repository root:
+
+```bash
+chmod +x infra/cli/upload_raw_to_adls.sh
+./infra/cli/upload_raw_to_adls.sh
+```
+
+What the script does:
+
+    1. Reads Azure credentials from infra/cli/azure_credentials.env
+	2. Retrieves the storage account key
+	3. Generates a short-lived SAS token for the raw container
+	4. Uploads the entire Bronze folder recursively using azcopy, preserving the Hive-style partitioning: 
+       
+       source=<dataset>/year=<YYYY>/month=<MM>/
+
+
