@@ -10,7 +10,8 @@ Datasets currently supported:
 - energy_balance (general totals)  
 - main_consumption  
 - ohmpilot (heating buffer storage)  
-- solar  
+- wattpilot (EV car charger)
+- solar 
 
 ---
 

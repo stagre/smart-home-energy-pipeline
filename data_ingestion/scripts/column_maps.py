@@ -1,4 +1,5 @@
 # translation maps for the data sets' column names (german to english)
+# units are derived from the second row of the raw CSV files
 # battery
 BATTERY_COL_MAP = {
     "Datum und Uhrzeit": "timestamp",
@@ -70,12 +71,19 @@ SOLAR_COL_MAP = {
     "Strom DC MPP2 | Symo GEN24 8.0 Plus": "current_dc_mpp2_a",
 }
 
-# wattpilot (car charger energy balance)
+# wattpilot (EV car charger)
 WATTPILOT_COL_MAP = {
     "Datum und Uhrzeit": "timestamp",
-    "Energie von PV an Wattpilot": "wattpilot_energy_from_pv_kwh",
-    "Energie vom Netz an Wattpilot": "wattpilot_energy_from_grid_kwh",
-    "Energie von Batterie an Wattpilot": "wattpilot_energy_from_battery_kwh",
+    "Energie von PV an Wattpilot": "wattpilot_energy_from_pv_wh",
+    "Energie vom Netz an Wattpilot": "wattpilot_energy_from_grid_wh",
+    "Energie von Batterie an Wattpilot": "wattpilot_energy_from_battery_wh",
+    "Energie Wattpilot | Wattpilot_32716452": "wattpilot_energy_total_wh",
+    "Eingestellte Stromstärke | Wattpilot_32716452": "wattpilot_set_current_a",
+    "Typ 2 | Wattpilot_32716452": "wattpilot_type2_current_a",
+    "Spannung AC L1 | Wattpilot_32716452": "wattpilot_voltage_l1_v",
+    "Spannung AC L2 | Wattpilot_32716452": "wattpilot_voltage_l2_v",
+    "Spannung AC L3 | Wattpilot_32716452": "wattpilot_voltage_l3_v",
+    "WLAN-Signalstärke | Wattpilot_32716452": "wattpilot_wifi_signal_dbm",
 }
 
 # master dict by dataset folder name

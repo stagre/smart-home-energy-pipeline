@@ -1,0 +1,6 @@
+Datum und Uhrzeit,Energie vom Netz an Wattpilot,Energie von Batterie an Wattpilot,Energie von PV an Wattpilot,Eingestellte Stromstärke | Wattpilot_32716452,Energie Wattpilot | Wattpilot_32716452,Spannung AC L1 | Wattpilot_32716452,Spannung AC L2 | Wattpilot_32716452,Spannung AC L3 | Wattpilot_32716452,Typ 2 | Wattpilot_32716452,WLAN-Signalstärke | Wattpilot_32716452
+[dd.MM.yyyy HH:mm],[Wh],[Wh],[Wh],[A],[Wh],[V],[V],[V],[A],[dBm]
+01.01.2024 00:00,0.0,0.0,0.0,16.0,0.0,225.66,230.32,229.95,32.0,-75.0
+01.01.2024 00:05,0.0,0.0,0.0,16.0,0.0,225.35,229.78,230.11,32.0,-75.0
+01.01.2024 00:10,0.0,0.0,0.0,16.0,0.0,225.03,229.5,229.68,32.0,-75.0
+01.01.2024 00:15,0.0,0.0,0.0,16.0,0.0,224.41,229.59,229.92,32.0,-75.0
